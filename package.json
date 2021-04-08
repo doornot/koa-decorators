@@ -8,6 +8,7 @@
     "build:watch": "tsc -w",
     "serve": "NODE_ENV=local node dist/index.js",
     "serve:watch": "NODE_ENV=local nodemon dist/index.js",
+    "start": "NODE_ENV=local node dist/index.js",
     "tslint": "tslint -c tslint.json -p tsconfig.json"
   },
   "author": "",
