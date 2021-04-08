@@ -1,0 +1,32 @@
+{
+  "name": "koa-decorators",
+  "version": "1.0.0",
+  "description": "koa decorators",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "serve": "NODE_ENV=local node dist/index.js",
+    "serve:watch": "NODE_ENV=local nodemon dist/index.js",
+    "tslint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-compose": "^4.1.0",
+    "koa-router": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.1",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-compose": "^3.2.5",
+    "@types/koa-router": "^7.4.1",
+    "@types/node": "^14.14.37",
+    "nodemon": "^1.17.5",
+    "ts-node": "^9.1.1",
+    "tslint": "^5.10.0",
+    "typescript": "^4.2.4"
+  }
+}
